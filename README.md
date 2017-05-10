@@ -1,4 +1,4 @@
-This project helps in prallelizing audio processing. It plays around with .wav audio files and plots an audio spectrum with the help of cuda FFT library. Tje goal of this project is:
+This project helps in prallelizing audio processing. It plays around with .wav audio files and plots an audio spectrum with the help of cuda FFT library. The goal of this project is:
 
 1. To capture 2-channel stereo, 16 Bits, Little Endian, .wav audio files at a sampling rate of 16000 Hz
 2. Convert that file into single channel mono raw file.
