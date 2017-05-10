@@ -19,22 +19,27 @@ To start using the project, you need to have the following system requirement:
 
 Steps for downloading and using the application are:
 1. Download the project:
+
 	$git clone https://github.com/shauryajai/Cuda_Audio_FFT.git
 
-2. Open the project home directory and compile the application. 
+2. Open the project home directory and compile the application.
+ 
 	$cd ~/Cuda_Audio_FFT
 	$make
 	
 	These commands will create two executables (i.e. audio and cuda_audio).
 
 3. Now, get the name of the audio recording and playback device:
+
 	$aplay -l
 	$arecord -l
 	
 4. Open the run.sh bash script and update the audio device name in that file.
+
 	$sudo nano run.sh
 	
 	I.e. change the "-Dsysdefault:CARD=CinemaTM" to your own device name.
 	
 5. Now, you are all set up too record and get the audio spectrum. Just run the script updated above:
+
 	$./run.sh
