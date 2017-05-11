@@ -24,7 +24,7 @@ Steps for downloading and using the application are:
 
 2. Open the project home directory and compile the application.
  
-	$cd ~/Cuda_Audio_FFT
+        $cd ~/Cuda_Audio_FFT
 
         $make
 	
@@ -32,16 +32,16 @@ Steps for downloading and using the application are:
 
 3. Now, get the name of the audio recording and playback device:
 
-	$aplay -l
+        $aplay -l
 
-	$arecord -l
+        $arecord -l
 	
 4. Open the run.sh bash script and update the audio device name in that file.
 
-	$sudo nano run.sh
+        $sudo nano run.sh
 	
 	I.e. change the "-Dsysdefault:CARD=CinemaTM" to your own device name.
 	
 5. Now, you are all set up too record and get the audio spectrum. Just run the script updated above:
 
-	$./run.sh
+        $./run.sh
