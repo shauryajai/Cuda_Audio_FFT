@@ -25,6 +25,7 @@ Steps for downloading and using the application are:
 2. Open the project home directory and compile the application.
  
 	$cd ~/Cuda_Audio_FFT
+
         $make
 	
 	These commands will create two executables (i.e. audio and cuda_audio).
@@ -32,6 +33,7 @@ Steps for downloading and using the application are:
 3. Now, get the name of the audio recording and playback device:
 
 	$aplay -l
+
 	$arecord -l
 	
 4. Open the run.sh bash script and update the audio device name in that file.
