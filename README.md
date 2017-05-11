@@ -20,7 +20,7 @@ To start using the project, you need to have the following system requirement:
 Steps for downloading and using the application are:
 1. Download the project:
 
-	$git clone https://github.com/shauryajai/Cuda_Audio_FFT.git
+        $git clone https://github.com/shauryajai/Cuda_Audio_FFT.git
 
 2. Open the project home directory and compile the application.
  
