@@ -54,5 +54,6 @@ Follow these steps if you don't have a microphone or a speaker:
 
 2. Run the executables:
 	
-	$./audio
-	$./cuda_audio
+        $./audio
+
+        $./cuda_audio
