@@ -45,3 +45,14 @@ Steps for downloading and using the application are:
 5. Now, you are all set up too record and get the audio spectrum. Just run the script updated above:
 
         $./run.sh
+		
+
+Incase you don't have a USB microphone and a speaker, you can run this project by directly using the "test.wav" sample audio file.
+Follow these steps if you don't have a microphone or a speaker:
+
+1. Follow the 1 and 2 steps given in the section above.
+
+2. Run the executables:
+	
+	$./audio
+	$./cuda_audio

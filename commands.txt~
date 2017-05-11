@@ -1,2 +1,0 @@
-arecord -Dsysdefault:CARD=CinemaTM -c 2 -r 16000 -d 4 test.wav
-aplay -Dsysdefault:CARD=Device test.wav

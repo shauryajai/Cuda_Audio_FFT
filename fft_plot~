@@ -1,6 +1,0 @@
-set datafile separator ","
-set autoscale fix
-set key outside right center
-set title "Audio Spectrum"
-plot 'fft_file.csv' using 1 title "Amplitude" with lines lt rgb "#0000FF"
-
